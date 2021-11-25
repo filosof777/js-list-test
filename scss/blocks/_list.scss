@@ -1,0 +1,98 @@
+.contentForm {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.formInput {
+  width: 250px;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+
+  &:hover {
+    outline-color: #6fcba1;
+  }
+}
+
+.formBtn {
+  background-color: transparent;
+  border: 2px solid #6fcba1;
+  color: #6fcba1;
+  border-radius: 30px;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.4s ease,
+              color 0.4s ease,
+              border-color 0.4s ease;
+
+  &:hover {
+    color: #fff;
+    background-color: #6fcba1;
+    border-color: #6fcba1;
+  }
+}
+
+.formText {
+  color: #6fcba1;
+  margin-bottom: 0;
+}
+
+.formCheck {
+  // width: 20px;
+  // height: 20px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50%;
+  color: #6fcba1;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background-color 0.4s ease,
+              color 0.4s ease,
+              border-color 0.4s ease;
+
+  &:hover {
+    background-color: #6fcba1;
+    color: #fff;
+    border-color: #6fcba1;
+  }
+}
+
+.formList {
+  padding: 20px 0;
+}
+
+.formItem {
+  padding: 15px 15px;
+}
+
+.showList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showItem {
+  
+}
+.showBtn {
+  background-color: transparent;
+  border: 2px solid #6fcba1;
+  color: #6fcba1;
+  border-radius: 30px;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.4s ease,
+              color 0.4s ease,
+              border-color 0.4s ease;
+
+  &:focus {
+    color: #fff;
+    background-color: #6fcba1;
+    border-color: #6fcba1;
+  }
+}
