@@ -76,9 +76,22 @@
   align-items: center;
   justify-content: space-between;
 }
-.showItem {
-  
+.showItem--active .showBtn {
+  color: #fff;
+  background-color: #6fcba1;
+  border-color: #6fcba1;
 }
+
+.btnActive {
+  color: #fff;
+  background-color: #6fcba1;
+  border-color: #6fcba1;
+  border: 2px solid #6fcba1;
+  border-radius: 30px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
 .showBtn {
   background-color: transparent;
   border: 2px solid #6fcba1;
@@ -90,7 +103,7 @@
               color 0.4s ease,
               border-color 0.4s ease;
 
-  &:focus {
+  &:hover {
     color: #fff;
     background-color: #6fcba1;
     border-color: #6fcba1;
